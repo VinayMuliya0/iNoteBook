@@ -46,7 +46,7 @@ function Notes(props) {
             <hr />
 
             <button type="button" className="btn btn-primary d-none" ref={ref} data-bs-toggle="modal" data-bs-target="#editModal">
-                Launch demo modal
+                loader is ready
             </button>
 
             <div className="modal fade" id="editModal" tabIndex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
