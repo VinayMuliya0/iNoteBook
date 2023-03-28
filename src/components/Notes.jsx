@@ -45,7 +45,7 @@ function Notes(props) {
             <AddNote showAlert={props.showAlert} />
             <hr />
 
-            <button type="button" className="btn btn-primary d-none" ref={ref} data-bs-toggle="modal" data-bs-target="#editModal">
+            <button type="button" className="btn btn-danger d-none" ref={ref} data-bs-toggle="modal" data-bs-target="#editModal">
                 loader is ready
             </button>
 
